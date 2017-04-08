@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD79F0C23C57F49EE558047 /* Pods_LoginPage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCA7FC72E0D53E9C7A8C580 /* Pods_LoginPage2.framework */; };
 		B36E097F1E91623900ECC0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E097E1E91623900ECC0A9 /* AppDelegate.swift */; };
 		B36E09811E91623900ECC0A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36E09801E91623900ECC0A9 /* ViewController.swift */; };
 		B36E09841E91623900ECC0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36E09821E91623900ECC0A9 /* Main.storyboard */; };
 		B36E09871E91623900ECC0A9 /* LoginPage2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B36E09851E91623900ECC0A9 /* LoginPage2.xcdatamodeld */; };
 		B36E09891E91623900ECC0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36E09881E91623900ECC0A9 /* Assets.xcassets */; };
 		B36E098C1E91623900ECC0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36E098A1E91623900ECC0A9 /* LaunchScreen.storyboard */; };
+		B36E09941E9162C000ECC0A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B36E09931E9162C000ECC0A9 /* GoogleService-Info.plist */; };
+		B36E09981E91797300ECC0A9 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E09971E91797300ECC0A9 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46D523B8759C85D6006BC711 /* Pods-LoginPage2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginPage2/Pods-LoginPage2.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC1C45C2DE918484E52F05F /* Pods-LoginPage2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage2.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginPage2/Pods-LoginPage2.release.xcconfig"; sourceTree = "<group>"; };
 		B36E097B1E91623900ECC0A9 /* LoginPage2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36E097E1E91623900ECC0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B36E09801E91623900ECC0A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		B36E09881E91623900ECC0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36E098B1E91623900ECC0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B36E098D1E91623900ECC0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36E09931E9162C000ECC0A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B36E09951E9178C000ECC0A9 /* LoginPage2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginPage2.entitlements; sourceTree = "<group>"; };
+		B36E09961E91797200ECC0A9 /* LoginPage2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginPage2-Bridging-Header.h"; sourceTree = "<group>"; };
+		B36E09971E91797300ECC0A9 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		BBCA7FC72E0D53E9C7A8C580 /* Pods_LoginPage2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPage2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD79F0C23C57F49EE558047 /* Pods_LoginPage2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C266A752C5D81245C53390F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D523B8759C85D6006BC711 /* Pods-LoginPage2.debug.xcconfig */,
+				6FC1C45C2DE918484E52F05F /* Pods-LoginPage2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DB94D6AD3E8074591966253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCA7FC72E0D53E9C7A8C580 /* Pods_LoginPage2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B36E09721E91623900ECC0A9 = {
 			isa = PBXGroup;
 			children = (
 				B36E097D1E91623900ECC0A9 /* LoginPage2 */,
 				B36E097C1E91623900ECC0A9 /* Products */,
+				0C266A752C5D81245C53390F /* Pods */,
+				1DB94D6AD3E8074591966253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +86,17 @@
 		B36E097D1E91623900ECC0A9 /* LoginPage2 */ = {
 			isa = PBXGroup;
 			children = (
+				B36E09951E9178C000ECC0A9 /* LoginPage2.entitlements */,
+				B36E09931E9162C000ECC0A9 /* GoogleService-Info.plist */,
 				B36E097E1E91623900ECC0A9 /* AppDelegate.swift */,
+				B36E09971E91797300ECC0A9 /* test.m */,
 				B36E09801E91623900ECC0A9 /* ViewController.swift */,
 				B36E09821E91623900ECC0A9 /* Main.storyboard */,
 				B36E09881E91623900ECC0A9 /* Assets.xcassets */,
 				B36E098A1E91623900ECC0A9 /* LaunchScreen.storyboard */,
 				B36E098D1E91623900ECC0A9 /* Info.plist */,
 				B36E09851E91623900ECC0A9 /* LoginPage2.xcdatamodeld */,
+				B36E09961E91797200ECC0A9 /* LoginPage2-Bridging-Header.h */,
 			);
 			path = LoginPage2;
 			sourceTree = "<group>";
@@ -74,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B36E09901E91623900ECC0A9 /* Build configuration list for PBXNativeTarget "LoginPage2" */;
 			buildPhases = (
+				377D2BF25F898837BCEE29B5 /* [CP] Check Pods Manifest.lock */,
 				B36E09771E91623900ECC0A9 /* Sources */,
 				B36E09781E91623900ECC0A9 /* Frameworks */,
 				B36E09791E91623900ECC0A9 /* Resources */,
+				DC08B34ACED9665D30F39F84 /* [CP] Embed Pods Frameworks */,
+				4E94A7235434BCF6317EBC90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +136,14 @@
 				TargetAttributes = {
 					B36E097A1E91623900ECC0A9 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = AM5D2D8ET4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B36E098C1E91623900ECC0A9 /* LaunchScreen.storyboard in Resources */,
+				B36E09941E9162C000ECC0A9 /* GoogleService-Info.plist in Resources */,
 				B36E09891E91623900ECC0A9 /* Assets.xcassets in Resources */,
 				B36E09841E91623900ECC0A9 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +179,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		377D2BF25F898837BCEE29B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E94A7235434BCF6317EBC90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginPage2/Pods-LoginPage2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC08B34ACED9665D30F39F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginPage2/Pods-LoginPage2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B36E09771E91623900ECC0A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B36E09811E91623900ECC0A9 /* ViewController.swift in Sources */,
+				B36E09981E91797300ECC0A9 /* test.m in Sources */,
 				B36E097F1E91623900ECC0A9 /* AppDelegate.swift in Sources */,
 				B36E09871E91623900ECC0A9 /* LoginPage2.xcdatamodeld in Sources */,
 			);
@@ -262,24 +356,35 @@
 		};
 		B36E09911E91623900ECC0A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D523B8759C85D6006BC711 /* Pods-LoginPage2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoginPage2/LoginPage2.entitlements;
+				DEVELOPMENT_TEAM = AM5D2D8ET4;
 				INFOPLIST_FILE = LoginPage2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajsevak.LoginPage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginPage2/LoginPage2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		B36E09921E91623900ECC0A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC1C45C2DE918484E52F05F /* Pods-LoginPage2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoginPage2/LoginPage2.entitlements;
+				DEVELOPMENT_TEAM = AM5D2D8ET4;
 				INFOPLIST_FILE = LoginPage2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajsevak.LoginPage2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginPage2/LoginPage2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +408,7 @@
 				B36E09921E91623900ECC0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
